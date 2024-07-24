@@ -164,7 +164,7 @@ Date:   Tue Mar 28 00:26:53 2023 +0300
 - *modified* изменёнынный - значит этот фаил изменили<br>
 
 
-```memrmaid
+```mermaid
 graph LR
 A(untracked) --> (git add) B(staged +tracked)
     B --> (git commit) C(tracked)
