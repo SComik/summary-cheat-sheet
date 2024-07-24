@@ -166,9 +166,9 @@ Date:   Tue Mar 28 00:26:53 2023 +0300
 
 ```mermaid
 graph LR
-A(untracked) --> (git add) B(staged +tracked)
-    B --> (git commit) C(tracked)
-    C --> (изменения) D(modified)
-    D --> (git add) B(staged +tracked)
+A(untracked) -- git add --> B(staged +tracked)
+    B -- git commit --> C(tracked)
+    C -- изменения --> D(modified)
+    D -- git add --> B(staged +tracked)
 ```
 
