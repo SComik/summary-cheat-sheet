@@ -119,5 +119,13 @@ ls - la
 commit e83c5163316f89bfbde7d9ab23ca2e25604af290 < ------ это хэш в коммите
 Author: Linus Torvalds <torvalds@linux-foundation.org>
 Date:   Thu Apr 7 15:13:13 2005 -0700
-```
-    Initial revision of "git", the information manager from hell
+```   
+
+
+---
+## Лог
+
+
+Лог это журнал в котором показана история коммитов.<br>
+- *git log* появляеться подробный список коммитов<br>
+- *git log --oneline* появляеться краткий список коммитов, удобно если у вас много коммитов
